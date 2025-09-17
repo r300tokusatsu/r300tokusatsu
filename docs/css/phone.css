@@ -1,0 +1,27 @@
+@media screen and (max-width: 479px) , screen and ( max-height: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+
+    .tytle{
+        position: absolute; 
+        top: 50px; 
+        right: 10px; 
+        font-size: 40px; 
+        font-weight: bold; 
+        color: red; 
+        text-shadow: 3px 3px 6px black; 
+        font-family: 'Impact', sans-serif;
+    }
+
+    .youtube{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh;
+    }
+    
+    .youtube1{
+        width: 90%; 
+        height: 30%;
+    }
+
+}

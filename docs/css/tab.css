@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px) and ( min-width: 479px) , screen and (max-height: 767px) and ( min-height: 479px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+
+    .logo{
+        position: fixed; /* スクロールしても固定 */
+        top: 10px;       /* 上からの距離 */
+        right: 10px;      /* 左からの距離 */
+        z-index: 1000;   /* 前面に表示 */
+    }
+    .logo img {
+        height: 150px; /* ロゴの大きさ調整 */
+        width: auto;
+    }
+
+
+    .youtube{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh;
+    }
+    
+    .youtube1{
+        width: 85%; 
+        height: 40%;
+    }
+
+}
